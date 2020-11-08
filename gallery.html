@@ -1,0 +1,135 @@
+<IDOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Gallery</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		
+		<style>
+			body{
+			background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image1.jpg);
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+			.gallery{
+				padding: 100px 0;
+				background: #efefef;
+				text-align: center;
+			}
+			.gallery-box img{
+				width: 100%;
+				border-radius: 10px;
+				cursor: pointer;
+				transition: 1s;
+			}
+			.gallery-box img:hover{
+				transform: scale(1.1);
+			}
+			.gallery-box h4{
+				display: block;
+				color: #fff;
+				text-shadow: -2px 2px 2px #000;
+				font-weight: 600;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			.gallery-box{
+				position: relative;
+				margin-bottom: 30px;
+			}
+			.banner{
+				height: 80%;
+				background-image: url(c.jpg);
+				background-position: center;
+				background-size: cover;
+				background-attachment: fixed;
+				padding-top: 14%;
+			}
+			.banner-highlights{
+				padding:70px 0;
+				background: rgba(0,0,0,0.7);
+				text-align: center;
+				color: #fff;
+			}
+			.booking-btn{
+				width: 120px;
+				padding: 8px 0;
+				outline: none;
+				border: 2px solid #fff;
+				border-radius: 50px;
+				background: transparent;
+				color: #fff;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="gallery">
+			<h1>INTERIORS</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="service.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image10.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image8.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image17.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image10.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image6.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image13.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="gallery-box">
+							<img src="image8.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="banner">
+			<div class="banner-highlights">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+						<h2>Get 30% on weekend</h2>
+						<p>welcome to our Restaurant and enjy this weekend</p>
+					</div>
+					<div class="col-md-4">
+						<button type="button" class="booking-btn">Book a table</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+	</body>
+	</html>
